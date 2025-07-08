@@ -11,6 +11,8 @@ class Adapterlist extends Model
     protected $fillable = [
         'ip',
         'status_active',
-        'status_service'
+        'status_service',
+        'last_checked_at', // اضافه شده
+        'ping_status'    // اضافه شده
     ];
 }
